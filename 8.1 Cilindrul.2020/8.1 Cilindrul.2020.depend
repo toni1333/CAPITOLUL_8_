@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1600113250 source:i:\proiecte\8.1 cilindrul.2020\main.cpp
+	<iostream>
+	"Cerc.h"
+	"Cilindru.h"
+
+1600107960 source:i:\proiecte\8.1 cilindrul.2020\src\cerc.cpp
+	"Cerc.h"
+	<cmath>
+
+1600113358 i:\proiecte\8.1 cilindrul.2020\include\cerc.h
+
+1600112650 source:i:\proiecte\8.1 cilindrul.2020\src\cilindru.cpp
+	"Cilindru.h"
+	"Cerc.h"
+	<cmath>
+
+1600113330 i:\proiecte\8.1 cilindrul.2020\include\cilindru.h
+	"Cerc.h"
+
