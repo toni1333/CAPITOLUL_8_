@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1600707365 source:i:\proiecte\8.2 norma\main.cpp
+	<iostream>
+	<Clasa.h>
+	<NormaProf.h>
+
+1600705477 i:\proiecte\8.2 norma\include\clasa.h
+
+1600706781 i:\proiecte\8.2 norma\include\normaprof.h
+	<Clasa.h>
+
+1600705229 source:i:\proiecte\8.2 norma\src\clasa.cpp
+	"Clasa.h"
+	<NormaProf.h>
+	<iostream>
+
+1600707157 source:i:\proiecte\8.2 norma\src\normaprof.cpp
+	"NormaProf.h"
+	<Clasa.h>
+	<iostream>
+
