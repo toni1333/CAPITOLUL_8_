@@ -2,6 +2,7 @@
 #define MASINA_H
 #include<Roata.h>
 
+
 class Masina
 {
     public:
@@ -13,6 +14,8 @@ class Masina
         void SchimbaRoti(Roata, Roata, Roata, Roata);
         void SchimbaRoata(short, Roata);
         void AfiseazaTipCauciucuri(std::string);
+        float afiseazaInstant();  // functie suplimentara
+
 
     protected:
 

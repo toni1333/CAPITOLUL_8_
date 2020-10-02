@@ -1,17 +1,13 @@
 # depslib dependency file v1.0
-1601504593 source:i:\proiecte\8.3 rotile\main.cpp
+1601605362 source:i:\proiecte\8.3 rotile\main.cpp
 	<iostream>
-	<string>
-	"Janta.h"
-	"Anvelopa.h"
-	"Roata.h"
 	"Masina.h"
 
-1601493007 source:i:\proiecte\8.3 rotile\src\anvelopa.cpp
+1601595322 source:i:\proiecte\8.3 rotile\src\anvelopa.cpp
 	"Anvelopa.h"
 	"Janta.h"
 
-1601493046 i:\proiecte\8.3 rotile\include\anvelopa.h
+1601605055 i:\proiecte\8.3 rotile\include\anvelopa.h
 	"Janta.h"
 	<string>
 
@@ -20,17 +16,16 @@
 1601312914 source:i:\proiecte\8.3 rotile\src\janta.cpp
 	"Janta.h"
 
-1601500262 source:i:\proiecte\8.3 rotile\src\roata.cpp
+1601605016 source:i:\proiecte\8.3 rotile\src\roata.cpp
 	"Roata.h"
 
-1601500262 i:\proiecte\8.3 rotile\include\roata.h
-	"Janta.h"
+1601605016 i:\proiecte\8.3 rotile\include\roata.h
 	"Anvelopa.h"
 
-1601503962 source:i:\proiecte\8.3 rotile\src\masina.cpp
+1601605419 source:i:\proiecte\8.3 rotile\src\masina.cpp
 	"Masina.h"
 	<iostream>
 
-1601492882 i:\proiecte\8.3 rotile\include\masina.h
+1601592284 i:\proiecte\8.3 rotile\include\masina.h
 	<Roata.h>
 

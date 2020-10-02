@@ -1,6 +1,5 @@
 #ifndef ROATA_H
 #define ROATA_H
-#include "Janta.h"
 #include "Anvelopa.h"
 
 
@@ -14,7 +13,7 @@ class Roata
         void SchimbaRoata(Anvelopa, Janta);
         void UmflaRoata(double presiune);
         TipAnvelopa GetTipAnvelopa();
-
+        float arataInstant1();   //  functie suplimentara secundara
     protected:
 
     private:

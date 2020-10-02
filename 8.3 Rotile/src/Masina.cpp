@@ -35,7 +35,7 @@ void Masina::UmflaRoti(double presiune){
 }
 void Masina::UmflaRoata(short x, float aer){
    _roti[x].UmflaRoata(aer);
-}
+   }
 void Masina::SchimbaRoti(Roata roata1, Roata roata2, Roata roata3, Roata roata4){
     _roti[0]=roata1;
     _roti[1]=roata2;
@@ -61,4 +61,33 @@ void Masina::AfiseazaTipCauciucuri(std::string numaMasina)
         std::cout<<" mixte";
         }
         std::cout<<std::endl;
+}
+float Masina::afiseazaInstant(){           //  functie suplimentara
+
+      for(short i=0; i<4;++i){
+          switch(i+1){                                 //  aici optimizez Roata 1= Roata dreapta fata , etc....
+ case 1: std::cout<<"Roata dreapta fata are: "<<_roti[i].arataInstant1()<<" ";
+  if(_roti[i].GetTipAnvelopa()==1)
+    std::cout<<" si cauciuc iarna"<<std::endl;
+ else
+    std::cout<<" si cauciuc vara"<<std::endl; break;
+ case 2: std::cout<<"Roata stanga  fata are: "<<_roti[i].arataInstant1()<<" ";
+  if(_roti[i].GetTipAnvelopa()==1)
+    std::cout<<" si cauciuc iarna"<<std::endl;
+ else
+    std::cout<<" si cauciuc vara"<<std::endl; break;
+ case 3: std::cout<<"Roata dreapta spate are: "<<_roti[i].arataInstant1()<<" ";
+ if(_roti[i].GetTipAnvelopa()==1)
+    std::cout<<" si cauciuc iarna"<<std::endl;
+ else
+    std::cout<<" si cauciuc vara"<<std::endl; break;
+ case 4: std::cout<<"Roata stanga  spate are: "<<_roti[i].arataInstant1()<<" ";
+ if(_roti[i].GetTipAnvelopa()==1)
+    std::cout<<" si cauciuc iarna"<<std::endl;
+ else
+    std::cout<<" si cauciuc vara"<<std::endl; break;
+
+    std::cout<<std::endl;
+}
+}
 }

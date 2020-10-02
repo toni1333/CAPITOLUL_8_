@@ -1,8 +1,4 @@
 #include <iostream>
-#include<string>
-#include "Janta.h"
-#include "Anvelopa.h"
-#include "Roata.h"
 #include "Masina.h"
 
 using namespace std;
@@ -30,10 +26,12 @@ int main()
     toyota.AfiseazaStareRoti("Toyota");
     toyota.AfiseazaTipCauciucuri("Toyota");
     toyota.UmflaRoata(0,0.5);
+    //toyota.afiseazaInstant();                 // functie suplimentara..
     toyota.AfiseazaStareRoti("Toyota");
     toyota.SchimbaRoata(0, rVara1);
     toyota.AfiseazaStareRoti("Toyota");
     toyota.AfiseazaTipCauciucuri("Toyota");
+    //toyota.afiseazaInstant();                 //  aceeasi functie...
 
 
     return 0;

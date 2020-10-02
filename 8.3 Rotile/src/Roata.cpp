@@ -1,5 +1,6 @@
 #include "Roata.h"
 
+
 Roata::Roata(Anvelopa x, Janta y): _anvelopa{x}, _janta{y}
 {
     //ctor cu 2 param...
@@ -26,3 +27,5 @@ void Roata::UmflaRoata(double presiune){
 TipAnvelopa Roata::GetTipAnvelopa(){
 return _anvelopa.getTipAnvelopa();
 }
+float Roata:: arataInstant1(){                // functie suplimentara secundara
+return _anvelopa.getPresiune();}

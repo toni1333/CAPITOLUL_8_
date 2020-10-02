@@ -3,7 +3,6 @@
 #include "Janta.h"
 #include<string>
 
-
 enum TipAnvelopa {iarna=1,vara, universal};
 
 class Anvelopa
@@ -20,7 +19,7 @@ class Anvelopa
 
     private:
         std::string _brand;
-        float _presiune;    // aproximativ 5 atm deci folosim cifre mici de aceea float...
+        float _presiune;        // aproximativ 5 atm deci folosim cifre mici de aceea float...
         TipAnvelopa _tipAnvelopa;
 };
 
