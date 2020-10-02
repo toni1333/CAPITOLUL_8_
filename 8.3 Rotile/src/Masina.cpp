@@ -49,7 +49,9 @@ void Masina::SchimbaRoata(short careRoata, Roata parametru){
 void Masina::AfiseazaTipCauciucuri(std::string numaMasina)
 {
     std::cout<<numaMasina<<" are cauciucurile ";
-    if((_roti[0].GetTipAnvelopa()==_roti[1].GetTipAnvelopa())&&(_roti[2].GetTipAnvelopa()==_roti[3].GetTipAnvelopa()))
+    if((_roti[0].GetTipAnvelopa()==_roti[1].GetTipAnvelopa())
+       &&(_roti[2].GetTipAnvelopa()==_roti[3].GetTipAnvelopa())
+       &&(_roti[0].GetTipAnvelopa()==_roti[3].GetTipAnvelopa()))   // aici daca gaseste o roata diferita NU executa IF ul..
     {
            switch(_roti[0].GetTipAnvelopa()) {
         case 1: std::cout << " de iarna"; break;
@@ -70,7 +72,7 @@ float Masina::afiseazaInstant(){           //  functie suplimentara
   if(_roti[i].GetTipAnvelopa()==1)
     std::cout<<" si cauciuc iarna"<<std::endl;
  else
-    std::cout<<" si cauciuc vara"<<std::endl; break;
+    std::cout<<" si cauciuc vara"<<std::endl; break; // aici inainte de break puteam pune (dupa fiecare break)inca un else pentru cauciuc all season
  case 2: std::cout<<"Roata stanga  fata are: "<<_roti[i].arataInstant1()<<" ";
   if(_roti[i].GetTipAnvelopa()==1)
     std::cout<<" si cauciuc iarna"<<std::endl;

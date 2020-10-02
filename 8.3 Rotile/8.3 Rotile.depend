@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1601605362 source:i:\proiecte\8.3 rotile\main.cpp
+1601660731 source:i:\proiecte\8.3 rotile\main.cpp
 	<iostream>
 	"Masina.h"
 
@@ -22,7 +22,7 @@
 1601605016 i:\proiecte\8.3 rotile\include\roata.h
 	"Anvelopa.h"
 
-1601605419 source:i:\proiecte\8.3 rotile\src\masina.cpp
+1601660673 source:i:\proiecte\8.3 rotile\src\masina.cpp
 	"Masina.h"
 	<iostream>
 
