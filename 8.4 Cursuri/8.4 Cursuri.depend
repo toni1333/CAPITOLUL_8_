@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1603050056 source:i:\proiecte\8.4 cursuri\main.cpp
+	<iostream>
+	<Cursant.h>
+	<Mentor.h>
+
+1603050645 source:i:\proiecte\8.4 cursuri\src\persoana.cpp
+	"Persoana.h"
+
+1603051623 i:\proiecte\8.4 cursuri\include\persoana.h
+	<iostream>
+
+1603050645 source:i:\proiecte\8.4 cursuri\src\mentor.cpp
+	"Mentor.h"
+
+1603050645 i:\proiecte\8.4 cursuri\include\mentor.h
+	<Persoana.h>
+
+1603050645 source:i:\proiecte\8.4 cursuri\src\cursant.cpp
+	"Cursant.h"
+
+1603050645 i:\proiecte\8.4 cursuri\include\cursant.h
+	<Persoana.h>
+
